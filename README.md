@@ -1,16 +1,13 @@
-Introduction to Pathogen Detection
-
+# Introduction to Pathogen Detection
 Advances in DNA sequencing technology have made it possible for scientists all over the world to sequence complete microbial genomes rapidly and efficiently. Access to the DNA sequences of entire microbial genomes offers new opportunities to analyze and understand microorganism at the molecular level. Scientists are able to detect pathogens in biological tissues and study variations in gene expression in response to the pathogenic invasion. These responses help in designing novel approaches for microbial pathogen detection and drug development. Identification of certain microbial pathogens as etiologic agents responsible for chronic diseases is leading to new treatments and prevention strategies for these diseases.
-Pathogen Detection Mechanism
 
+# Pathogen Detection Mechanism
 Each species of pathogens carries with it a unique DNA or RNA signature that differentiate it from other organisms. One of the challenges is to develop this DNA signature for each microorganism of interest for rapid and specific detection.
 
-What we have in this dataset?
-
+# What we have in this dataset?
 The system provides two major automated real-time analyses: 1) it quickly clusters related pathogen genome sequences to identify potential transmission chains, helping public health scientists investigate disease outbreaks, and 2) as part of the National Database of Antibiotic Resistant Organisms (NDARO), NCBI screens genomic sequences using AMRFinderPlus to identify the antimicrobial resistance, stress response, and virulence genes found in bacterial genomic sequences, which enables scientists to track the spread of resistance genes and to understand the relationships among antimicrobial resistance, stress response, and virulence.
 
-Conclusion:
-
+# Conclusion:
 The script provides a comprehensive workflow for data preprocessing, visualization, clustering using K-means, and machine learning using RandomForestClassifier. Here are some key takeaways:
 
 1. Data Exploration: The script effectively explores various aspects of the dataset, including location, isolation source, serovar, and more, providing valuable insights.
